@@ -68,12 +68,12 @@ public class LoopExcersice {
 	private void question_3() {
 		System.out.println("\nAnswer for # 3");
 		
-		int tuition = 10000;
+		double tuition = 10000;
 		float tuitionIncrease = 1.07f;
 		 int year = 0 ;
 		 
-		 while (tuition <  tuition*2 ) {
-			 tuition = (int) (tuition * tuitionIncrease) + tuition;
+		 while (tuition < 20000 ) {
+			 tuition =  (tuition * tuitionIncrease) ;
 			 year++; 
 		 }
 		 
